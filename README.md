@@ -4,9 +4,9 @@ Space desktop is an application for running php and python (in development) code
 
 ## Important Links
 
-* [Space-Desktop Website](http://www.space-desktop.com) - Official website of framework and application.
+* [Space-Desktop Website](http://www.space-desktop.com) - The official website of a framework and an application.
 * [Facebook](https://---) - My Facebok page.
-* [Patreon](https://---) - Patreon page. With patronage I will be able to by more licences and external software for future Space-Desktop updates.
+* [Patreon](https://---) - Patreon page. With patronage I will be able to buy more licences and external software for future Space-Desktop updates.
 
 ## Getting Started
 
