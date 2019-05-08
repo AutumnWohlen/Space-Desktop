@@ -1,4 +1,4 @@
-[![Space-Desktop Logo](http://www.space-desktop.com//logo-github.png)](http://www.space-desktop.com)
+[![Space-Desktop Logo](http://www.space-desktop.com//logo-github.png)](https://www.space-desktop.com)
 
 # SPACE-DESKTOP
 
@@ -6,7 +6,7 @@ Space desktop is an application for running php and python (in development) code
 
 ## Important Links
 
-* [Space-Desktop Website](http://www.space-desktop.com) - The official website of a framework and an application.
+* [Space-Desktop Website](https://www.space-desktop.com) - The official website of a framework and an application.
 * [Facebook](https://---) - My Facebok page.
 * [Patreon](https://---) - Patreon page. With patronage I will be able to buy more licences and external software for future Space-Desktop updates.
 
@@ -111,7 +111,7 @@ Or read a [License](https://---) on a Space-Desktop Website page (MIT).
 ## Versioning
 
 The most current version will be posted here on the GitHub page.
-To download another versions or themes go to [Space-Desktop Website](http://www.space-desktop.com).
+To download another versions or themes go to [Space-Desktop Website](https://www.space-desktop.com).
 
 ## Author
 
