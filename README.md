@@ -1,3 +1,5 @@
+[![Space-Desktop Logo](http://www.space-desktop.com//logo-github.png)](http://www.space-desktop.com)
+
 # SPACE-DESKTOP
 
 Space desktop is an application for running php and python (in development) code on chromim engine with css, html, js support. You can create desktop software for Windows with php and python (in near future). Realeases for Mac and Linux will be in future updates.
