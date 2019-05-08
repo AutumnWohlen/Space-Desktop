@@ -1,0 +1,25 @@
+NODE.JS COMMANDS
+
+App Name : Space Desktop
+App Version : v 0.99
+Author : Vasilenko (Kaydalovskiy) Artem Oleksiyovych
+GitHub : https://github.com/AutumnWohlen/Space-Desktop
+Facebook : https://www.facebook.com/Space-Desktop-2317974875140362
+Website : https://www.space-desktop.com
+License : MIT License
+
+OPEN DIRECTORY
+cd /d D:\Electron\Space-Desktop
+
+RUN APPLICATION
+npm start
+
+PLUGINS
+/ELECTRON
+npm install electron --save-g
+/OTHERS
+npm install php-proxy-middleware --save
+npm install express --save
+npm install tap --save
+/FOR php.ini generator
+npm install multiline --save (not really necessary, you can use default JS functions)

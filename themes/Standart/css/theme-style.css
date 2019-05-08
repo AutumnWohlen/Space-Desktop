@@ -1,0 +1,182 @@
+/*
+Theme name: Clean
+File: CSS Styles
+Version: 1.0.0
+Author: Vasilenko (Kaydalovskiy) Artem Oleksiyovych
+GitHub: https://github.com/AutumnWohlen/Space-Desktop
+Facebook: https://www.facebook.com/Space-Desktop-2317974875140362
+Website: https://www.space-desktop.com
+*/
+
+/*
+Preloading Image ------------------------------------
+*/
+
+#loader {
+    z-index: 99999;
+    height:100%;
+	width: 100%;
+	background-color: #70005B;
+	/* Use background-image to add loading gif or "Hello" message */
+  /*background-image: url(../img/YOUGIF.gif);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+	/* Firefox */
+    -moz-animation: cssAnimation 0s ease-in 2.5s forwards;
+    /* Safari and Chrome */
+    -webkit-animation: cssAnimation 0s ease-in 2.5s forwards;
+    /* Opera */
+    -o-animation: cssAnimation 0s ease-in 2.5s forwards;
+    /* Usual tag */
+    animation: cssAnimation 0s ease-in 2.5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}
+
+@-webkit-keyframes cssAnimation {
+    to {
+        width: 0;
+        height: 0;
+        visibility: hidden;
+    }
+}
+
+#loader svg{
+  display: block;
+  padding-top: 30vh
+}
+
+/*
+Body and main elements ------------------------------------
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    height:100%;
+    margin: 0;
+    overflow:hidden;
+	background-color: #ffffff;
+}
+
+.parent {
+    height:100%;
+    display:-ms-flexbox;
+    display:flex;
+    display: -webkit-flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+/* Menu in header */
+.menu {
+    background-color: #8b1057;
+	background: linear-gradient(30deg, #79037b 0%, #A01D53 50%, #86046d 100%);
+	display: flex;
+	display: -webkit-flex;
+    justify-content: center;
+	-webkit-justify-content: center;
+    width: 100%;
+}
+
+/* Minimize, change window size and close windows buttons */
+.window-controls {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 120px;
+	-webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.window-controls button {
+	position: relative;
+	display: inline-block;
+	float: right;
+	border: none;
+	background-color: transparent;
+	-webkit-app-region: no-drag;
+}	
+
+.window-controls button:hover {
+    background-color: #ffffff;
+}	
+
+.window-controls button:focus {
+    outline: none;
+}	
+
+#close {
+	background-image: url(../img/icon-close.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30px;  
+    width: 33px;
+}
+
+#close:hover {
+	background-image: url(../img/icon-close-sel.png);
+}
+
+#minmax {
+	background-image: url(../img/icon-window.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 30px;  
+    width: 33px;
+}
+
+#minmax:hover {
+	background-image: url(../img/icon-window-sel.png);
+}
+
+#minimize {
+	background-image: url(../img/icon-swap.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+	height: 30px;  
+    width: 33px;
+}
+
+#minimize:hover {
+	background-image: url(../img/icon-swap-sel.png);
+}
+
+
+/* Navigation */
+.nav {
+    width: 100%;
+    position: relative;
+	webkit-user-select: none;
+    -webkit-app-region: drag;
+	top: 2px;
+}
+
+.content {
+    display:flex;
+	display: -webkit-flex;
+    flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+}
+
+.webview {
+    display:flex;
+	display: -webkit-flex;
+	-webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}

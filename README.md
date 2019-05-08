@@ -7,8 +7,8 @@ Space desktop is an application for running php and python (in development) code
 ## Important Links
 
 * [Space-Desktop Website](https://www.space-desktop.com) - The official website of a framework and an application.
-* [Facebook](https://---) - My Facebok page.
-* [Patreon](https://---) - Patreon page. With patronage I will be able to buy more licences and external software for future Space-Desktop updates.
+* [Facebook](https://www.facebook.com/Space-Desktop-2317974875140362 - My Facebok page.
+* [Patreon](https://www.patreon.com/SpaceDesktop) - Patreon page. With patronage I will be able to buy more licences and external software for future Space-Desktop updates.
 
 ## Getting Started
 
@@ -105,8 +105,8 @@ If you want to use standart php.ini settings with none of Node.JS integrations, 
 
 ## License
 
-Please read a [License](https://---) on a GitHub page (MIT).
-Or read a [License](https://---) on a Space-Desktop Website page (MIT).
+Please read a [License](https://github.com/AutumnWohlen/Space-Desktop/LICENSE) on a GitHub page (MIT).
+Or read a [License](https://www.space-desktop.com) on a Space-Desktop Website page (MIT).
 
 ## Versioning
 
