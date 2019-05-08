@@ -1,4 +1,4 @@
-[![Space-Desktop Logo](http://www.space-desktop.com//logo-github.png)](https://www.space-desktop.com)
+[![Space-Desktop Logo](https://www.space-desktop.com//logo-github.png)](https://www.space-desktop.com)
 
 # SPACE-DESKTOP
 
