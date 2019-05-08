@@ -105,7 +105,7 @@ If you want to use standart php.ini settings with none of Node.JS integrations, 
 
 ## License
 
-Please read a [License](https://github.com/AutumnWohlen/Space-Desktop/LICENSE) on a GitHub page (MIT).
+Please read a [License](https://github.com/AutumnWohlen/Space-Desktop/blob/master/LICENSE) on a GitHub page (MIT).
 Or read a [License](https://www.space-desktop.com) on a Space-Desktop Website page (MIT).
 
 ## Versioning
