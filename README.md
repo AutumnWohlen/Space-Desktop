@@ -8,8 +8,8 @@ Space desktop is an application for running php and python (in development) code
 
 ## Official Documentation
 
-You can download Space-DEsktop documentation from current page - [Documentation] (https://github.com/AutumnWohlen/Space-Desktop-Docs).
-You also can read online documentation online on this page - [Online Docs] (http://space-desktop.com/documentation/).
+You can download Space-DEsktop documentation from current page - [Documentation](https://github.com/AutumnWohlen/Space-Desktop-Docs).
+You also can read online documentation online on this page - [Online Docs](http://space-desktop.com/documentation/).
 
 ## Important Links
 
