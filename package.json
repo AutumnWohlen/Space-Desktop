@@ -1,8 +1,8 @@
 {
   "name": "space-desktop",
-  "version": "0.9.9",
+  "version": "1.0.1",
   "description": "Web-desktop application. This build can run scripting languages as desktop application for local service. Also you can modify design for your needs. It uses Chromium and Electron Framework.",
-  "main": "StartTheme.js",
+  "main": "Starter.js",
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"

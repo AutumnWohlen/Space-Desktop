@@ -1,6 +1,6 @@
 /*
 --App Name : Space Desktop
---App Version : v 0.99
+--App Version : v 1.0.1
 --Author : Vasilenko (Kaydalovskiy) Artem Oleksiyovych
 --GitHub : https://github.com/AutumnWohlen/Space-Desktop
 --Facebook : https://www.facebook.com/Space-Desktop-2317974875140362
@@ -31,7 +31,8 @@ If you want to modify custom-generated php.ini, you need to open /customphpini/g
 Also you can switch between php.ini versions in php() function settings down there.
 */
 
-
+module.exports = {
+   startappmode: function() {
 
 // Included npm modules and dependencies:
 const { app, BrowserWindow } = require('electron')
@@ -39,7 +40,7 @@ const { app, BrowserWindow } = require('electron')
 var express = require('express');
 var php = require('php-proxy-middleware');
 // To create custom-generated php.ini
-var iniCompileFunction = require('./generateini.js');
+var iniCompileFunction = require('./Generateini.js');
 
 
 
@@ -95,6 +96,8 @@ function createWindow () {
   // Uses Electron BrowserWindow options from https://electronjs.org/docs/api/browser-window
   mainWindow = new BrowserWindow({
 	titleBarStyle: 'hidden',
+	title: "Space Desktop",
+	icon: 'icon.ico',
     //useContentSize: true,
 	width: 1000, 
 	height: 650,
@@ -125,3 +128,6 @@ app.on('ready', createWindow);
 app.on('window-all-closed', () => {
   app.quit();
 });
+
+   }
+};

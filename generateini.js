@@ -1,6 +1,6 @@
 /*
 --App Name : Space Desktop
---App Version : v 0.99
+--App Version : v 1.0.1
 --Author : Vasilenko (Kaydalovskiy) Artem Oleksiyovych
 --GitHub : https://github.com/AutumnWohlen/Space-Desktop
 --Facebook : https://www.facebook.com/Space-Desktop-2317974875140362
@@ -70,7 +70,7 @@ const content_1_2 = multiline(()=>{/*
 ;Open the generateini.js and edit 'iniCompileFunction' options
 */});
 
-// Usual text i none string can be placed ----------------------------------------
+// Usual text, one string can be placed ------------------------------------------
 const content_1_3 = '; Use PHP documentation to configure php.ini ';
 
 // Use '__dirname' to set relative path on php.ini option line -------------------

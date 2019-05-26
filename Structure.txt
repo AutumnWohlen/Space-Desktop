@@ -1,0 +1,39 @@
+--App Name : Space Desktop
+--App Version : v 1.0.1
+--Author : Vasilenko (Kaydalovskiy) Artem Oleksiyovych
+--GitHub : https://github.com/AutumnWohlen/Space-Desktop
+--Facebook : https://www.facebook.com/Space-Desktop-2317974875140362
+--Website : https://www.space-desktop.com
+--License : MIT License
+
+Attention
+All important files for your application must be placed in this folder "../Space-Desktop"
+
+Structure of Application CLEAN
+ -desktop (your PHP application must be placed here)
+ ---index.php
+ ---php folder and other files
+ ---CSS and HTML includes
+ -documentaion (application manual)
+ -licenses (licenses and dependencies)
+ -node_modules (included npm modules)
+ -php (the folder with PHP build)
+ -phpini (Folder for custom php.ini)
+ ---php.ini (Created custom-generated php.ini file, will be created after launch)
+ -themes (here you can find your themes)
+ ---ThemeName (name of the theme)
+ ------index.html (main file to run the theme)
+ ------css (folder for CSS styles)
+ ------js (folder for JS includes)
+ ------img (folder for images and other includes)
+ -Commands.txt (Commands for Space-Desktop through Node.js command prompt)
+ -Generateini.js (NODE.JS script to generate custom php.ini with relative pathes)
+ -package.json (JSON file)
+ -package-lock.json (npm dependencies tree)
+ -README.txt
+ -Starter.js (It is main file in package.json, it starts an application)
+ -StartUsual.js (Start the application with OS default window)
+ -StartTheme.js (Start the application with custom theme)
+ -Structure.txt
+
+ 

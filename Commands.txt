@@ -1,7 +1,7 @@
 NODE.JS COMMANDS
 
 App Name : Space Desktop
-App Version : v 0.99
+App Version : v v 1.0.1
 Author : Vasilenko (Kaydalovskiy) Artem Oleksiyovych
 GitHub : https://github.com/AutumnWohlen/Space-Desktop
 Facebook : https://www.facebook.com/Space-Desktop-2317974875140362
@@ -11,8 +11,13 @@ License : MIT License
 OPEN DIRECTORY
 cd /d D:\Electron\Space-Desktop
 
+INSTALL NODE.JS MODULES
+npm install
+
 RUN APPLICATION
 npm start
+
+COULD BE NECESSARY
 
 PLUGINS
 /ELECTRON
