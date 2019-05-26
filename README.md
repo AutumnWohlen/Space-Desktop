@@ -128,4 +128,3 @@ To download another versions or themes go to [Space-Desktop Website](https://www
 
 If you have a question or proposition, mail me to this address [SpaceDesktopMail@gmail.com](SpaceDesktopMail@gmail.com).
 You can also send me a mail letter on legal issues. If you noticed that some laws were been violated, write me describe an issue.
-
