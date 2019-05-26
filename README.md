@@ -31,84 +31,23 @@ OS Windows 64bit;
 USB or Hard Drive.
 ```
 
-## Run Settings
+## Run the application
 
-You can run the application with custom theme or with standart UI OS window theme.
-To change the settings for theme open the 'space-desktop-win32-x64\resources\app\package.json' and change current string:
-
-```
-"main": "StartTheme.js",
-```
-
-To this one:
+If you download Space-Desktop from GitHub, you need to open NODE.JS COMMAND Prompt and write these commans:
 
 ```
-"main": "StartUsual.js",
+OPEN DIRECTORY
+cd /d D:\Electron\Space-Desktop
+
+INSTALL NODE.JS MODULES
+npm install
+
+RUN APPLICATION
+npm start
 ```
 
-The result is a switched window's theme.
-
-## Run Custom PHP code
-
-Copy your php code to 'space-desktop-win32-x64\resources\app\desktop\' folder. You need to have there an 'index.php' or 'index.html' file.
-
-### Change a PHP version
-
-Go to [PHP Website](https://www.php.net/releases/index.php)
-Select your version and download it.
-Delete all files in 'space-desktop-win32-x64\resources\app\php\' folder.
-Copy your downloaded version of PHP in 'space-desktop-win32-x64\resources\app\php\' folder.
-
-### Edit 'php.ini'
-
-This application can run php.ini settings with relative paths!
-To do this you need to open the 'space-desktop-win32-x64\resources\app\generateini.js' file.
-You will see examples for editing inside of this 'generateini.js' file.
-But as an example you will get rows like this:
-
-```
-;;;;;;;;;;;;;;;;;;;
-; About php.ini   ;
-;;;;;;;;;;;;;;;;;;;
-; PHP's initialization file, generally called php.ini, is responsible for
-; configuring many of the aspects of PHP's behavior.
-```
-
-Last what you need to do is to open 'StartTheme.js' or 'StartUsual.js' files and find this strings:
-
-```
-// Settings for PHP Local Server
-appser.use (php({
-execPath: __dirname + '/php/php.exe', // Path to php.exe
-// If none of "iniFile" selected, PHP Local Server will use default settings
-iniFile: __dirname + '/php/php.ini', // Select php.ini from /php Folder
-//iniFile: 'D:/Electron/Space-Desktop/phpini/php.ini', // Select custom-generated php.ini from /phpini Folder
-root: __dirname + '/desktop', // Folder to your php application and index.php
-address: '127.0.0.1', // Address interface for PHP Local Server
-port: '8000', // Port for PHP Local Server ---------------------------------------- will auto-detect a free port otherwise
-//ini: { max_execution_time: 60, error_log: '...' } // Show logs in Command line  
-}));
-```
-
-You need to replace 'iniFile' string with commented one. The result is:
-
-```
-// Settings for PHP Local Server
-appser.use (php({
-execPath: __dirname + '/php/php.exe', // Path to php.exe
-// If none of "iniFile" selected, PHP Local Server will use default settings
-//iniFile: __dirname + '/php/php.ini', // Select php.ini from /php Folder
-iniFile: 'D:/Electron/Space-Desktop/phpini/php.ini', // Select custom-generated php.ini from /phpini Folder
-root: __dirname + '/desktop', // Folder to your php application and index.php
-address: '127.0.0.1', // Address interface for PHP Local Server
-port: '8000', // Port for PHP Local Server ---------------------------------------- will auto-detect a free port otherwise
-//ini: { max_execution_time: 60, error_log: '...' } // Show logs in Command line  
-}));
-```
-
-### Use standart 'php.ini'
-
-If you want to use standart php.ini settings with none of Node.JS integrations, you don't need to edit 'StartTheme.js' or 'StartUsual.js' files. Just open the 'space-desktop-win32-x64\resources\app\php\' folder and edit local 'php.ini' file there.
+You need to select your directory of Space-Desktop application, in this example it's on D Disk (Windows).
+If you downloaded Space-Desktop from official website, you need to run 'exe' file (Windows).
 
 ## License
 
