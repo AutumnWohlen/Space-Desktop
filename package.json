@@ -18,7 +18,7 @@
     "url": "git+https://github.com/AutumnWohlen/Space-Desktop"
   },
   "dependencies": {
-    "electron": "^4.1.1",
+    "electron": "^18.3.7",
     "express": "^4.16.4",
     "multiline": "^2.0.0",
     "php-proxy-middleware": "^1.0.1",
